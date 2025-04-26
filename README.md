@@ -34,3 +34,4 @@ To build your app for deployment you can run
 pnpm build
 ```
 # suipedia
+# suipedia
