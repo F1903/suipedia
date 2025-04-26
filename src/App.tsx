@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import './App.css';
 import logo from './assets/logo.png';
-
+import { Analytics } from "@vercel/analytics/react"
 
 
 const embedCodes: { name: string; code: string }[] = [
@@ -83,7 +83,7 @@ function App() {
           ))}
         </div>
       </div>
-      
+      <Analytics/>
     </>
   );
 }
